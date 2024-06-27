@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+        // Las variables
+      double d, x1, y1, x2, y2;
+      Scanner teclado= new Scanner(System.in);
+      // El comando de las variables
+      System.out.println("Entre x2");
+      x2 = teclado.nextDouble();
+      System.out.println("Entre x1");
+      x1 = teclado.nextDouble();
+      System.out.println("Entre y2");
+      y2 = teclado.nextDouble();
+      System.out.println("Entre y1");
+      y1 = teclado.nextDouble();
+      System.out.println();
+      // Ecuacion de la distancia
+      d = Math.sqrt (Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+      // El comando del resultado de la variable
+      System.out.println("La distancia: " + d);
+    }
+}
