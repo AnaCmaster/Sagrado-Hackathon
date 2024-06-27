@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+        // Las variables
+     double A,a,b;
+      Scanner teclado= new Scanner(System.in);
+      // El comado de las variables
+      System.out.println("Entre base del triángulo");
+      b = teclado.nextDouble();
+      System.out.println("Entre altura del triángulo");
+      a = teclado.nextDouble();
+      System.out.println();
+      // La Ecuacion de la Área
+      A= b*a/2;
+      // El comando de la respuesta de la variable
+      System.out.println("Área:" + A);
+    }
+}
