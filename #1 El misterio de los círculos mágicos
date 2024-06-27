@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class PiINJava {
+    public static void main(String args[]) {
+        // Las variables
+     double A, C, r;
+     Scanner teclado= new Scanner(System.in);
+     // El comando de la variable
+     System.out.println("Enter radius");
+     r = teclado.nextDouble();
+     System.out.println();
+     //La ecuación de la circunferencia
+     C= 2*Math.PI*r;
+     // El resultado de la circunferencia
+     System.out.println("La circunferencia es:" + C);
+     System.out.println();
+     // La ecuación de la área
+     A= Math.PI*Math.pow(r, 2);
+     //El resultado de la área
+     System.out.println("El Área es:" + A);
+    }
+}
