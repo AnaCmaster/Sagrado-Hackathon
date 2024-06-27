@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class UpperCase {
+    public static void main(String args[]) {
+        // Las palabras que van hacer MAYUSCULA
+        String myCountry = "reino de codeopia";
+        // El comando para hacer la palabra MAYUSCULA
+     System.out.println("My Country name using toUpperCase() is: " + myCountry.toUpperCase());
+    }
+}
